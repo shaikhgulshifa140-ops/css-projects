@@ -1,0 +1,48 @@
+<html>
+<head>
+    <title>Image Hover Effects</title>
+
+    <style>
+        .row {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .row img {
+            width: 200px;
+            height: 150px;
+            margin: 10px;
+            transition: transform 0.5s ease; 
+        }
+
+    
+        .rotate img:hover {
+            transform: rotate(15deg);
+        }
+
+        
+        .scale img:hover {
+            transform: scale(1.2);
+        }
+    </style>
+
+</head>
+
+<body>
+
+   
+    <div class="row rotate">
+        <img src="images\flower.jpeg">
+        <img src="images\flower.jpeg">
+        <img src="images\flower.jpeg">
+    </div><br>
+
+    
+    <div class="row scale">
+        <img src="images\f2.jpeg">
+        <img src="images\f2.jpeg">
+        <img src="images\f2.jpeg">
+    </div>
+
+</body>
+</html>
